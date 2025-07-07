@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tanvir Ishtiaq - Portfolio</title>
+  <meta name="description"
+    content="Portfolio website for Tanvir Ishtiaq, including personal info, skills, and activities.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <img src="images/Tanvir.jpg" alt="Tanvir Photo" />
+    <h1>Tanvir Ishtiaq</h1>
+    <div style="font-size:1.25em;margin-bottom:0.3em;">Senior Software Engineer</div>
+    <div style="font-size:1.25em;margin-bottom:0.3em;">Panorama</div>
+  </header>
+
+  <nav>
+    <a href="#personal-info">Personal Info</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Technical Skills</a>
+    <a href="#links">Activities & Links</a>
+    <a href="#favorites">Favorites</a>
+    <a href="contact.html">Contact Me</a>
+  </nav>
+
+  <section id="personal-info">
+    <h2>Personal Info</h2>
+    <p><span class="bold">Name:</span> <span style="color: #15416c; font-weight: bold;">Tanvir Ishtiaq</span></p>
+    <p><span class="bold">Background:</span> <span class="italic">Computer Science student passionate about AI and web
+        development.Currently working at Panorama as Senior Software Developer</span></p>
+    <p><span class="bold">Location:</span> Dhaka, Bangladesh</p>
+
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <table>
+      <tr>
+        <th>Institution</th>
+        <th>Degree</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td rowspan="2"><b>BRAC University</b><br> Kha 224 Pragati Sarani, Merul Badda , Dhaka 1212, Bangladesh<br>
+          <a href="https://www.bracu.ac.bd/" target="_blank">Visit BRACU</a>
+        </td>
+        <td>B.Sc. in Computer Science</td>
+        <td>2023-2027</td>
+      </tr>
+      <tr>
+        <td colspan="2">Relevant Courses:<br>
+          - CSE 391: Web Technologies <br>
+          - CSE 111: Programming Fundamentals
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li><b>Languages:</b> Python, JavaScript, C++</li>
+      <li><b>Web:</b> HTML5, CSS3, <span style="color:#1d72b8">JavaScript</span>, Node.js</li>
+      <li><b>Tools:</b> Git, VS Code, Linux</li>
+      <li><b>Soft Skills:</b> Communication, Problem Solving, Teamwork</li>
+    </ul>
+  </section>
+
+  <section id="links">
+    <h2>Activities & Categorized Links</h2>
+    <h3>Hobbies</h3>
+    <ul>
+      <li><a href="https://www.goodreads.com/" target="_blank">Reading</a></li>
+      <li><a href="https://open.spotify.com/user/22gpgi7itv5ngitknt3birj7v">Music </a></li>
+    </ul>
+    <h3>Sports</h3>
+    <ul>
+      <li><a href="https://www.espncricinfo.com/" target="_blank">Cricket</a></li>
+      <li><a href="https://www.espn.in/football/scoreboard">Football</a></li>
+    </ul>
+    <h3>Extracurricular</h3>
+    <ul>
+      <li>
+        <a href="https://www.linkedin.com/in/tanvir-ishtiaq/" target="_blank">
+          LinkedIn 
+        </a>
+      </li>
+    </ul>
+    <p>
+      I'm an active member of the <a href="https://discord.com/invite/6TVPBFuV7t" target="_blank"
+        style="color:#5865F2;"><b>CSE 391 Discord server</b></a>, which has helped me collaborate and grow as a
+      developer.
+    </p>
+  </section>
+
+  <section id="favorites">
+    <h2>Favorites</h2>
+    <h3>Favorite Quote</h3>
+    <blockquote class="quote">
+      "Success is not final, failure is not fatal: It is the courage to continue that counts."
+      <br><span style="font-size:0.96em;color:#b46807;">– Winston Churchill</span>
+    </blockquote>
+    <h3>Top 5 Favorite Movies</h3>
+    <ol>
+      <li>Inception</li>
+      <li>The Shawshank Redemption</li>
+      <li>The Social Network</li>
+
+    </ol>
+  </section>
+
+  <div class="table-container">
+    <h2>Projects Table</h2>
+    <table>
+      <tr>
+        <th>Project</th>
+        <th>Description</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>Personal Portfolio</td>
+        <td rowspan="2">
+          <span class="italic">
+            My web portfolio, which showcases my projects, background, and contact information.<br>
+            <b>This is the site you are viewing now!</b>
+          </span>
+        </td>
+        <td>Ongoing</td>
+      </tr>
+      <tr>
+        <td>Blog Platform</td>
+        <td>Completed</td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <b>Want to see more?</b><br>
+          Visit my <a href="contact.html">Contact Page</a> to reach out.
+        </td>
+        <td>Contact Me</td>
+      </tr>
+    </table>
+  </div>
+
+  <footer>
+    <div id="location"></div>
+    <div id="last-modified"></div>
+    <div style="margin-top:1em;">
+      &copy; 2025 Tanvir Ishtiaq | All Rights Reserved
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("location").innerHTML =
+      "<b>Page Location:</b> " + window.location.href;
+
+    document.getElementById("last-modified").innerHTML =
+      "<b>Last Modified:</b> " + document.lastModified;
+  </script>
+</body>
+
+</html>

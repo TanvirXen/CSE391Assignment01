@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Tanvir Ishtiaq</title>
+  <meta name="description" content="Contact Tanvir Ishtiaq, Computer Science student at BRAC University.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Contact Tanvir Ishtiaq</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="#contact-form">Contact Form</a>
+    <a href="https://www.bracu.ac.bd/" target="_blank">BRAC University</a>
+  </nav>
+
+  <section id="contact-form">
+    <h2>Get in Touch</h2>
+    <form style="max-width:420px;margin:2em auto 1em auto;">
+      <label for="name" class="bold">Name:</label><br>
+      <input type="text" id="name" name="name" style="width:95%;" required><br><br>
+      <label for="email" class="bold">Email:</label><br>
+      <input type="email" id="email" name="email" style="width:95%;" required><br><br>
+      <label for="message" class="bold">Message:</label><br>
+      <textarea id="message" name="message" rows="5" style="width:95%;" required></textarea><br><br>
+      <button type="submit" style="background:#15416c;color:white;padding:0.7em 2em;border:none;border-radius:5px;font-size:1em;cursor:pointer;">Send</button>
+    </form>
+    <p style="font-style:italic;color:#888;font-size:0.97em;">You can reach me via email at <a href="mailto:tanvir.ishtiaq@g.bracu.ac.bd">tanvir.ishtiaq@g.bracu.ac.bd</a>.</p>
+  </section>
+
+  <footer>
+    <div id="location-js"></div>
+    <div id="last-modified"></div>
+    <div style="margin-top:1em;">
+      &copy; 2025 Tanvir Ishtiaq | All Rights Reserved
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("location-js").innerHTML =
+      "<b>Page Location:</b> " + window.location.href;
+    document.getElementById("last-modified").innerHTML =
+      "<b>Last Modified:</b> " + document.lastModified;
+  </script>
+</body>
+</html>
