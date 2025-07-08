@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
   font-family: Arial, sans-serif;
   background: #f8fafc;
@@ -86,10 +86,7 @@ footer {
   background: #e5ecf6;
   margin-top: 2em;
   font-size: 0.98em;
-  border-top: 1px solid #c8d5eb;
-}
-
-/* Responsive Table */
+  border-top: 1px solid #
 .table-container {
   overflow-x: auto;
 }
@@ -112,9 +109,7 @@ tr:nth-child(even) {
 }
 tr:hover {
   background: #ffe1c3;
-  transition: background 0.25s;
-}
-/* Column/row merge */
+  transition: background }
 td[rowspan] {
   background: #e6f2f8;
   font-weight: bold;
